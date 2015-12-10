@@ -21,6 +21,13 @@ a:hover {
   color: #6633ff;
 }
 
+.experience-items a {
+  color: blue; 
+}
+.experience-items a:hover {
+  color: #666;
+}
+
 /* Section Styles */
 
 .main-nav {
@@ -86,7 +93,8 @@ header .profile-image:hover {
 } 
 .location {
   background-color: #222;
-  color: yellow;
+  color: white;
+  font-weight: bold;
 }
 .card {
   margin: 30px;
@@ -99,6 +107,19 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
+  border-color: #ff99ff;
+}
+
+.card-wide {
+  margin: 60px 30px;
+  padding: 20px 40px 40px;
+  text-align: left;
+  background: #fff;
+  border-bottom: 4px solid #ccc;
+  border-radius: 6px;
+  transition: all .5s;
+}
+.card-wide:hover {
   border-color: #ff99ff;
 }
 
@@ -165,6 +186,13 @@ a.social:hover {
 }
 .clearfix {
   clear: both;
+}
+
+
+/* Experience */
+
+.experience-items {
+  margin-left: 5px;
 }
 
 /* Styles for larger screens */
